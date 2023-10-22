@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546077502680",
+    "project_id": "proyecto-pizza-tec",
+    "storage_bucket": "proyecto-pizza-tec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546077502680:android:21fe4081ca03d2662abbad",
+        "android_client_info": {
+          "package_name": "com.example.pizzatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546077502680-ap1sjtot9ol9po8thqhhd0iaacv28dg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZ-Yh0D_K6dkX_E0nTZ2Zou0JkJ_2qco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546077502680-ap1sjtot9ol9po8thqhhd0iaacv28dg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="com.example.pizzatec.menu.inicio.InicioFragment"
+        android:label="@string/title_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.pizzatec.menu.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/navigation_comprar"
+        android:name="com.example.pizzatec.menu.comprar.ComprarFragment"
+        android:label="@string/title_comprar"
+        tools:layout="@layout/fragment_comprar" />
+
+    <fragment
+        android:id="@+id/navigation_miscompras"
+        android:name="com.example.pizzatec.menu.miscompras.MisComprasFragment"
+        android:label="@string/title_miscomprar"
+        tools:layout="@layout/fragment_mis_compras" />
+
+    <fragment
+        android:id="@+id/navigation_notificaciones"
+        android:name="com.example.pizzatec.menu.notificaciones.NotificacionesFragment"
+        android:label="@string/title_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+</navigation>

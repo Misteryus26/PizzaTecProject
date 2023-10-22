@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".documentos.DerechosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DERECHOS DE DESARROLLADOR"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="@color/coloNegro_Pri"/>
+            />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los derechos morales son derechos irrenunciables y perpetuos que posee el autor de un software, siendo reconocido como tal y teniendo la posibilidad de decidir sobre su fecha de publicación o retiro del mercado. Los derechos patrimoniales permiten al autor ser retribuido por su trabajo hasta por 70 años después de su fallecimiento. Transcurrido el periodo la obra pasará a dominio público.
+
+El derecho de autor protege la obra y sus componentes, como el código fuente, el código objeto, la documentación técnica y los manuales de usuario, siendo reconocido como autor toda persona que haya participado en la programación, de todo o parte, del código fuente del programa, o en el diseño de la parte gráfica. Cabe señalar que, cuando un programa de ordenador es creado en una relación de trabajo o por encargo, los derechos patrimoniales se rigen por lo acordado entre las partes, de lo contrario, los derechos patrimoniales sobre el programa de ordenador serán a favor exclusivo del empleador o comitente.
+"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En el Perú"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En nuestro país, los programas de software son considerados obras, siendo protegidos por la Ley de Derechos de Autor y el Reglamento del Registro Nacional del Derecho de Autor y Derechos Conexos, para lo cual los programas deben cumplir tres requisitos:
+
+Susceptibilidad de ser divulgado. Debe ser leído en su propio lenguaje de programación.
+Ser original. El código fuente del programa debe ser resultado de un proceso creativo y diferenciarse de otros programas.
+Ser susceptible de ser reproducido. Debe fijarse en un soporte y ser posible su reproducción.
+Para la inscripción, los desarrolladores de software deben seguir el proceso ante Indecopi y presentar la memoria descriptiva del software, los sistemas de instalación, el manual del usuario, la parte más importante del código fuente, entre otros documentos, además de añadir la solicitud de registro de software y pagar el derecho de tramitación.
+"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Retos por superar"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En octubre del 2018, Indecopi anunció la pronta culminación de la Política Nacional de Propiedad Intelectual (PNPI) del país. Su fin es potenciar las prioridades y estrategias nacionales de desarrollo establecidas en el Plan Bicentenario y en la Política General de Gobierno al 2021. Sin embargo, a la fecha esta medida aún no se ha publicado ni implementado.
+
+A pesar de eso, la dificultad más persistente de nuestro país sigue siendo la tolerancia a la piratería inmersa en nuestra sociedad. La situación actual es grave, ya que según datos revelados en la Encuesta Global de Software 2018 que realizó la Business Software Alliance, el 62 % de softwares instalados en el Perú hasta el 2017 no contaban con licencias. Siendo que el software es el instrumento fundamental para salvaguardar los procesos de creación informática, no registrarlo dificultaría aún más la protección de los derechos patrimoniales de sus autores.
+
+El reto principal del Estado es continuar la lucha contra la piratería a través de campañas que incentiven el uso de programas informáticos legales y más controles e inspecciones inopinadas. A su vez, la Dirección de Delitos Intelectuales de la Policía Nacional del Perú (PNP) debe impulsar operativos y decomisos de todo material ilegal que infrinja los derechos de autor. Por otro lado, también resulta importante fomentar el uso de medidas efectivas de protección tecnológica, es decir, dispositivos de hardware o software que controlen el acceso legal, la interpretación o ejecución de un programa, para impedir que el usuario la explote de manera indebida. ¿Qué otras medidas se requieren para proteger mejor el software original en el Perú? Déjanos tu opinión.
+"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

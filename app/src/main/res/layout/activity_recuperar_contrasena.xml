@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".login.RecuperarContrasenaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperación de cuenta"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Para recuperar su cuenta, deberá ingresa un correo en el cual se le enviará su contraseña para mantenerse en línea."
+        android:textSize="20dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etEmail_Recuperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_border"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:hint="Ingresa tu correo electronico"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:onClick="enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar solicitud"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrincipal"
+        android:background="@drawable/style_border_button"
+        />
+
+</LinearLayout>

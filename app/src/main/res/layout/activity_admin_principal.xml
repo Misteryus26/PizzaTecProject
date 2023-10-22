@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.AdminPrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Administrador"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:textColor="@color/coloNegro_Pri"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nomUserAd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#404040"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/apeUserAd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#404040"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/correoUserAd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#404040"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sistema Pizzeria"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrincipal"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnUsuarioMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrincipal3"
+                android:text="MANTENIMIENTO USUARIO"/>
+            <Button
+                android:id="@+id/btnPizzaMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrincipal"
+                android:text="MANTENIMIENTO PIZZA"/>
+            <Button
+                android:id="@+id/btnPastasMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrincipal1"
+                android:text="MANTENIMIENTO PASTAS"/>
+            <Button
+                android:id="@+id/btnComplementosMan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrincipal2"
+                android:text="MANTENIMIENTO COMPLEMENTOS"/>
+
+            <Button
+                android:id="@+id/btnCerrarSesionAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_border_button"
+                android:backgroundTint="@color/colorPrincipal"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:text="CERRAR SESIÓN"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+</LinearLayout>

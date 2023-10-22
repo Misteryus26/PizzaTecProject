@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_mis_compras"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".menu.miscompras.MisComprasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_miscompras"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Titulo"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="AQUÍ DEBEMOS MOSTRAR TODAS LAS COMPRAS QUE EL CLIENTE HA REALIZADO (HISTORIAL DE COMPRA)"/>
+
+
+</LinearLayout>

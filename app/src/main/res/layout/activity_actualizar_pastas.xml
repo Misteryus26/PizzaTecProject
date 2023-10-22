@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".administrador.mantenimiento.pasta.ActualizarPastasActivity">
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorPrincipal1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:text="Actualizar Pasta"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="40dp" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/formCardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="32dp">
+
+                    <TextView
+                        android:id="@+id/nombrePastaTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Nombre"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/nombrePastaEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_below="@+id/nombrePastaTextView"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/ic_field"
+                        android:ems="80"
+                        android:hint="Tallarines  Italianos"
+                        android:inputType="textAutoComplete"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="8dp" />
+
+                    <EditText
+                        android:id="@+id/precioPastaEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_below="@+id/precioPastaTextView"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_toStartOf="@+id/urlPastaEditText"
+                        android:layout_toLeftOf="@+id/urlPastaEditText"
+                        android:background="@drawable/ic_field"
+                        android:ems="3"
+                        android:hint="0.00"
+                        android:inputType="number"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/precioPastaTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/nombrePastaEditText"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_toStartOf="@+id/urlPastaTextView"
+                        android:layout_toLeftOf="@+id/urlPastaTextView"
+                        android:text="Precio"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/urlPastaEditText"
+                        android:layout_width="72dp"
+                        android:layout_height="56dp"
+                        android:layout_below="@+id/urlPastaTextView"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/ic_field"
+                        android:ems="10"
+                        android:hint="Url"
+                        android:inputType="number"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/urlPastaTextView"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/nombrePastaEditText"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Url"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/descPastaEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/descPastaTextView"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/ic_field"
+                        android:ems="255"
+                        android:gravity="clip_vertical"
+                        android:hint="Describe la pasta"
+                        android:inputType="textMultiLine"
+                        android:lines="8"
+                        android:maxLines="16"
+                        android:minLines="8"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/descPastaTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/precioPastaEditText"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Descripción"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/pastaButton"
+                        android:layout_width="240dp"
+                        android:layout_height="56dp"
+                        android:layout_below="@+id/descPastaEditText"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/ic_btn"
+                        android:backgroundTint="@color/colorPrincipal1"
+                        android:gravity="center"
+                        android:text="Actualizar"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

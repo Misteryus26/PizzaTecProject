@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pizzatec">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PizzaTec">
+        <activity
+            android:name=".administrador.mantenimiento.pasta.RegistrarPastasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.mantenimiento.pasta.ListaPastasActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".administrador.mantenimiento.pasta.DetallePastasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.mantenimiento.pasta.ActualizarPastasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.mantenimiento.pizza.ListaPizzaActivity"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".administrador.mantenimiento.pizza.DetallePizzaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.mantenimiento.pizza.ActualizarPizzaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.mantenimiento.pizza.RegistrarPizzaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.AdminPrincipalActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".dialogos.ConsultaEnvioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".documentos.DerechosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".documentos.PrivacidadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrincipalMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.RecuperarContrasenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.RegistrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
